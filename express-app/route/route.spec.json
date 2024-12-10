@@ -1,13 +1,13 @@
 {
     "GET /testRoutes/": {
-        "poop": {
+        "example": {
             "type": "string",
             "required": false,
 
             "validation": [
                 {
                     "type": "max",
-                    "value": 10
+                    "value": 100
                 }
             ]
         }

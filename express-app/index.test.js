@@ -9,8 +9,6 @@ import app from '~/index.js';
      it('should handle random input scenario', async () => {
          try {
 
-
-
              const res = await request(app).get('/users/')
                  .query({
                      id: "accomplished impolite guest"
