@@ -1,0 +1,15 @@
+{
+    "GET /testRoutes/": {
+        "poop": {
+            "type": "string",
+            "required": false,
+
+            "validation": [
+                {
+                    "type": "max",
+                    "value": 10
+                }
+            ]
+        }
+    }
+}

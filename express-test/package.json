@@ -1,0 +1,27 @@
+{
+  "name": "express-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/js-beautify": "^1.14.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "dev": "node --loader ts-node/esm index.ts",
+    "build": "npx tsc",
+    "watch": "npx tsc -w",
+    "start:dev": "nodemon ./build/index.js --ignore out"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "@types/node": "^22.10.1",
+    "commander": "^12.1.0",
+    "fs": "^0.0.1-security",
+    "js-beautify": "^1.15.1",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "randexp": "^0.5.3"
+  }
+}

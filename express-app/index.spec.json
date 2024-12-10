@@ -1,0 +1,15 @@
+{
+    "GET /users/": {
+        "id": {
+            "type": "string",
+            "required": false,
+
+            "validation": [
+                {
+                    "type": "min",
+                    "value": 10
+                }
+            ]
+        }
+    }
+}
